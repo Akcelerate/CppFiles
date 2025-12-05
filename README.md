@@ -1,2 +1,2 @@
 # C-Draft
-just learning the cod
+just learning the code
