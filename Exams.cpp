@@ -10,6 +10,7 @@ int main(){
     if(T > 0 && T < 2*(pow(10, 4))){
         goto op;
     }else{
+        cout << "\nInvalid entry\n";
         goto t;
     }
     
@@ -21,6 +22,7 @@ int main(){
         if(X > 0 && X < 6){
             goto y;
         }else{
+            cout << "\nInvalid entry\n";
             goto x;
         }
         y:
@@ -29,6 +31,7 @@ int main(){
         if(Y > 0 && Y < 51){
             goto z;
         }else{
+            cout << "\nInvalid entry\n";
             goto y;
         }
         z:
@@ -37,6 +40,7 @@ int main(){
         if(Z >= 0 && Z <= X*Y){
             goto a;
         }else{
+            cout << "\nInvalid entry\n";
             goto z;
         }
         
