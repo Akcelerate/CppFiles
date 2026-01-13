@@ -15,7 +15,7 @@ int main(){
         }while(N < 1 || N > 1000);
 
       //Incorrect logic; Incorrect output in case: T=1, N=2 ?;  How?
-        if(N/2 > 0 && N%2 == 0){
+        if(N%4 == 0){
             cout << "\nGood";
         }else{
             cout << "\nNot Good";
