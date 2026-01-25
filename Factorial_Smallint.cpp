@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+//Only works for factorials <= 20
 unsigned long long factorial(int n){
     if(n == 0 || n == 1){
         return 1;
